@@ -1,0 +1,61 @@
+.box{
+    display: flex;
+    flex-direction: column ;
+    border: 2px solid black;
+    width: 25vw;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 20px;
+    border: none;
+}
+.lgbox{
+     margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    /*height:100vh;*/
+    background-image: url(https://picsum.photos/seed/picsum/1600/800);
+    object-fit: cover;
+    background-repeat: no-repeat; 
+}
+
+input{
+    width:17vw;
+    margin-bottom:1vh;
+    border: none;
+    border-bottom: 1px solid goldenrod;
+    outline: none;
+    background-color:  rgba(0,0,0,0);
+    color: gold;
+    font: 22px;
+}
+
+button{
+    margin-top: 2vh;
+    height: 5vh;
+    width:15vw;
+    border: none;
+    border: 1px solid greenyellow;
+    background-color: royalblue;
+    color:white;
+    border-radius: 3vh;
+    outline: none;
+}
+
+button:hover{
+    background-color: tomato;
+    color: white;
+    transform: scale(1.1);
+    outline: none;
+}
+
+.innerDiv{
+    margin-top: 1vh;
+    border:2px solid tomato;
+}

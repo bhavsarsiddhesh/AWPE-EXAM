@@ -1,0 +1,16 @@
+#Nav{
+    height:65px;
+}
+
+#post{
+    height:200px;
+    font:24px;
+    border-radius: 10px;
+}
+
+body{
+    height:150vh;
+    background-image: url(https://picsum.photos/seed/picsum/1600/1200);
+    object-fit: cover;
+    background-repeat: no-repeat; 
+}
